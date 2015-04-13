@@ -8,7 +8,7 @@ a { color: #FFFFC2; }
 .navbar {
   background-color: #004C4C;
   border: none;
-  border-radius: none;
+  border-radius: 0px;
 }
 
 #hidden {
