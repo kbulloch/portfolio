@@ -13,11 +13,12 @@ a { color: #FFFFC2; }
 
 .title {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
-.container {
-
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #hidden {
