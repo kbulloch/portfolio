@@ -11,6 +11,20 @@ a { color: #FFFFC2; }
   border-radius: 0px;
 }
 
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+
+}
+
 #hidden {
   display: none;
+}
+
+#snow_pic {
+  width: 100%;
+
 }
