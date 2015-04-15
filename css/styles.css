@@ -3,7 +3,13 @@ body {
   color: #FFFFC2;
 }
 
-a { color: #FFFFC2; }
+a {
+  color: #FFFFC2;
+}
+
+p, h3 {
+  color: grey;
+}
 
 .navbar {
   background-color: #004C4C;
@@ -19,6 +25,13 @@ a { color: #FFFFC2; }
 .row {
   margin-top: 20px;
   margin-bottom: 20px;
+  min-height: 400px;
+}
+
+.img_crop {
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
 }
 
 #hidden {
@@ -27,5 +40,22 @@ a { color: #FFFFC2; }
 
 #snow_pic {
   width: 100%;
+  top: -180px;
+  position: relative;
+  opacity: .7;
+  z-index: -1;
+}
 
+#school_left, #school_right {
+  background-color: white;
+  border-radius: 10px;
+  opacity: .4;
+}
+
+.contact_icon {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  position: relative;
 }
