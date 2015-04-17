@@ -1,18 +1,14 @@
 body {
-  background-color: #009999;
-  color: #FFFFC2;
+  background-color: #FFFFF0;
+  color: #009999;
 }
 
-a {
-  color: #FFFFC2;
-}
-
-p, h3 {
-  color: grey;
+a, p, h3 {
+  color: #009999;
 }
 
 .navbar {
-  background-color: #004C4C;
+  background-color: #D6FFD6;
   border: none;
   border-radius: 0px;
 }
@@ -42,14 +38,14 @@ p, h3 {
   width: 100%;
   top: -180px;
   position: relative;
-  opacity: .7;
+  opacity: 1;
   z-index: -1;
 }
 
-#school_left, #school_right {
-  background-color: white;
-  border-radius: 10px;
-  opacity: .4;
+#epicodus_logo {
+  max-width: 130px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .contact_icon {
