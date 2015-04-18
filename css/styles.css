@@ -8,9 +8,28 @@ a, p, h3 {
 }
 
 .navbar {
-  background-color: #D6FFD6;
+  background-color: #FFFFF0;
   border: none;
   border-radius: 0px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.btn-nav {
+  margin-top: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: 009999;
+  color: #FFFFF0;
+}
+
+.jumbotron {
+  width: 100%;
+  text-align: center;
+  background-image: url('../img/snowboard_vista.jpg');
+  background-position: 0;
+  background-size: 100%;
+  min-height: 250px;
 }
 
 .title {
@@ -21,7 +40,7 @@ a, p, h3 {
 .row {
   margin-top: 20px;
   margin-bottom: 20px;
-  min-height: 400px;
+  /*min-height: 200px;*/
 }
 
 .img_crop {

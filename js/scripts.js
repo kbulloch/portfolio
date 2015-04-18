@@ -1,6 +1,5 @@
 $(document).ready(function() {
-  $("#hover").hover(
-    function() {
-      $("#hidden").toggle();
-    });
+  $("#about-nav").click(function() {
+    //scroll to about section
+  });
 });

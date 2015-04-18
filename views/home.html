@@ -9,18 +9,18 @@
   <body>
 
     <nav class="navbar">
-      <div class="container">
-        <h3><a href="about.html">About</a> || <a href="work.html">Work</a> || <a href="contact.html">Contact</a></h3>
-      </div>
+      <button id="about-nav" type="scroll-point" class="btn btn-xs btn-nav">About</button>
+      <button id="work-nav" href="about.html" class="btn btn-xs btn-nav">Work</button>
+      <button id="education-nav" href="about.html" class="btn btn-xs btn-nav">Education</button>
+      <button id="contact-nav" href="about.html" class="btn btn-xs btn-nav">Contact</button>
     </nav>
 
-    <div class="container">
-      <h1 class="title">The Kyle Page</h1>
+    <div class="jumbotron">
+    </div>
 
-      <div class="row">
-        <div class="img_crop">
-          <img src="../img/snowboard_vista.jpg" alt="snowboard vista" id="snow_pic"/>
-        </div>
+    <div class="container">
+
+      <div class="row bio">
         <div class="col-sm-8">
           <p>
             Born and raised on Kauai, HI.  I am Kyle Kaimana Bulloch.  I love
@@ -30,9 +30,27 @@
             Stack Web Developer currently studying at Epicodus.
           </p>
         </div>
+        <div class="col-sm-4">
+          <img src="../img/peep.png" alt="twit_bird" class="contact_icon"/>
+        </div>
       </div>
 
-      <div class="row">
+      <div class="row work">
+        <div class="col-sm-6">
+          <h3>Work Samples</h3>
+          <p>
+            Here are a few web apps developed while learning at Epicodus.
+          </p>
+          <ul>
+            <li><a href="https://github.com/kbulloch/tamagotchi_js">Tamagotchi</a></li>
+            <li><a href="https://github.com/kbulloch/TriangleQualifier">Triangle Qualifier</a></li>
+            <li><a href="https://github.com/kbulloch/pizza_js">Pizzaria</a></li>
+            <li><a href="https://github.com/kbulloch/ShoeStores">Shoe Stores</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row education">
         <div class="col-sm-6" id="school_left">
           <img id="epicodus_logo" src="https://jlau-bucket-1.s3.amazonaws.com/uploads/topic/image/56/logo__1_.png" alt="epicodus_logo" />
           <p>
@@ -56,12 +74,13 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row contact">
         <div class="col-sm-4">
-          <img src="../img/peep.png" alt="twit_bird" class="contact_icon"/>
+          <img src="https://g.twimg.com/Twitter_logo_blue.png" alt="twit_bird" class="contact_icon"/>
         </div>
         <div class="col-sm-4">
-          <img src="../img/peep.png" alt="twit_bird" class="contact_icon"/>
+          <button class="btn btn-xs glyphicon glyphicon-link"></button>
+          <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" alt="twit_bird" class="contact_icon"/>
         </div>
         <div class="col-sm-4">
           <img src="../img/peep.png" alt="twit_bird" class="contact_icon"/>
