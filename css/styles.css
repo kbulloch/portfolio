@@ -26,7 +26,7 @@ a, p, h3 {
 .jumbotron {
   width: 100%;
   text-align: center;
-  background-image: url('../img/snowboard_vista.jpg');
+  background-image: url('img/snowboard_vista.jpg');
   background-position: 0;
   background-size: 100%;
   min-height: 250px;
