@@ -1,14 +1,14 @@
 body {
   background-color: #009999;
-  color: #FFFFF0;
+  color: #F0EDCE;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
 }
 
 a {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
-  color: #ACE1F2;
+  color: #FF722B; //orange
+  /*color: #ACE1F2; //light blue*/
+  /*text-decoration: underline;*/
 }
 
 .navbar {
@@ -30,8 +30,8 @@ a {
 .jumbotron {
   width: 100%;
   text-align: center;
-  background-image: url('img/snowboard_vista.jpg');
-  background-position: 0;
+  background-image: url('../img/snowboard_vista.jpg');
+  background-position: 0 -300;
   background-size: 100%;
   min-height: 250px;
 }
@@ -49,7 +49,8 @@ a {
 }
 
 .bio, .education {
-  background-color: #00B3B3;
+  /*background-color: #008282; //darker teal*/
+  background-color: #00B3B3; //lighter teal
 }
 
 .box_head {
@@ -85,10 +86,7 @@ a {
   margin-bottom: 10px;
 }
 
-.contact_icon {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100px;
-  position: relative;
+.contact {
+  text-align: center;
+  margin: 5px;
 }
