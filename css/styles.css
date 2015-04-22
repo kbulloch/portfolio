@@ -1,10 +1,12 @@
 body {
-  background-color: #FFFFF0;
-  color: #009999;
+  background-color: #009999;
+  color: #FFFFF0;
 }
 
 a, p, h3 {
-  color: #009999;
+  color: #FFFFF0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
 }
 
 .navbar {
@@ -19,14 +21,14 @@ a, p, h3 {
   margin-top: 13px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: 009999;
+  background-color: #009999;
   color: #FFFFF0;
 }
 
 .jumbotron {
   width: 100%;
   text-align: center;
-  background-image: url('img/snowboard_vista.jpg');
+  background-image: url('../img/snowboard_vista.jpg');
   background-position: 0;
   background-size: 100%;
   min-height: 250px;
@@ -38,9 +40,18 @@ a, p, h3 {
 }
 
 .row {
-  margin-top: 20px;
+  min-height: 200px;
+  padding: 10px;
+  border-radius: 10px;
   margin-bottom: 20px;
-  /*min-height: 200px;*/
+}
+
+.bio, .education {
+  background-color: #00B3B3;
+}
+
+.work {
+  background-color: #008282;
 }
 
 .img_crop {
