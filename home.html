@@ -8,12 +8,12 @@
   </head>
   <body>
 
-    <nav class="navbar">
+    <!-- <nav class="navbar">
       <button id="about-nav" type="scroll-point" class="btn btn-xs btn-nav">About</button>
       <button id="work-nav" href="about.html" class="btn btn-xs btn-nav">Work</button>
       <button id="education-nav" href="about.html" class="btn btn-xs btn-nav">Education</button>
       <button id="contact-nav" href="about.html" class="btn btn-xs btn-nav">Contact</button>
-    </nav>
+    </nav> -->
 
     <div class="jumbotron">
     </div>
@@ -22,31 +22,54 @@
 
       <div class="row bio">
         <div class="col-sm-8">
+          <h3>Who I am</h3>
           <p>
             Born and raised on Kauai, HI.  I am Kyle Kaimana Bulloch.  I love
-            all things tech, futurism, math and science.  I have enjoyed studying
-            rigorously logical topics like physics, engineering, chemistry, math
-            and programming for as long I can remember.  I am an aspiring Full
-            Stack Web Developer currently studying at Epicodus.
+            all things tech, futurism, math, physics, engineering, chemistry,
+            and logic.  Writing code tickles my brain in just the right way.
+            I am an aspiring Full Stack Web Developer currently studying at Epicodus.
           </p>
         </div>
         <div class="col-sm-4">
-          <img src="../img/peep.png" alt="twit_bird" class="contact_icon"/>
+          <!-- <img src="img/peep.png" alt="twit_bird" class="contact_icon"/> -->
         </div>
       </div>
 
       <div class="row work">
-        <div class="col-sm-6">
+        <div class="box_head">
           <h3>Work Samples</h3>
           <p>
             Here are a few web apps developed while learning at Epicodus.
           </p>
-          <ul>
-            <li><a href="/tamagotchi/tamagotchi.html">Tamagotchi</a></li>
-            <li><a href="/TriangleQualifier/triangler.html">Triangle Qualifier</a></li>
-            <li><a href="https://github.com/kbulloch/pizza_js">Pizzaria</a></li>
-            <li><a href="https://github.com/kbulloch/ShoeStores">Shoe Stores</a></li>
-          </ul>
+        </div>
+
+        <div class="col-sm-6">
+          <p>
+            <h4><a href="/tamagotchi/tamagotchi.html">Tamagotchi</a></h4>
+            A web game developed as an exercise in Javascript objects using jQuery.
+            <a href="https://github.com/kbulloch/tamagotchi_js">Github</a>
+          </p>
+
+          <p>
+            <h4><a href="/TriangleQualifier/triangler.html">Triangle Qualifier</a></h4>
+            Web app that takes three side lengths and returns the type of triangle formed.
+            An exercise in Javascript objects and jQuery.
+            <a href="https://github.com/kbulloch/TriangleQualifier">Github</a>
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <p>
+            <h4><a href="/pizzaria/pizza.html">Pizzaria</a></h4>
+            Web app mimicking a pizza restaurant.  User can choose topping and size
+            and get a total order price.  Exercise in Javascript objects and jQuery.
+            <a href="https://github.com/kbulloch/pizza_js">Github</a>
+          </p>
+          <p>
+            <h4><a href="https://github.com/kbulloch/ShoeStores">Shoe Stores</a></h4>
+            Web app that lists shoe stores and the brands they carry.  Exercise in
+            many-to-many relationships in PostgreSQL and PHP.
+            <a href="https://github.com/kbulloch/ShoeStores">Github</a>
+          </p>
         </div>
       </div>
 
@@ -62,19 +85,21 @@
           </p>
         </div>
         <div class="col-sm-6" id="school_right">
-          <h3>Skillz Learned</h3>
+          <h3>Technologies Learned</h3>
           <ul>
               <li>HTML</li>
               <li>CSS</li>
               <li>PHP</li>
+              <li>PostgreSQL</li>
               <li>Javascript</li>
               <li>jQuery</li>
               <li>Drupal</li>
+              <li>AngularJS</li>
           </ul>
         </div>
       </div>
 
-      <div class="row contact">
+      <!-- <div class="row contact">
         <div class="col-sm-4">
           <img src="https://g.twimg.com/Twitter_logo_blue.png" alt="twit_bird" class="contact_icon"/>
         </div>
@@ -84,7 +109,7 @@
         </div>
         <div class="col-sm-4">
           <img src="../img/peep.png" alt="twit_bird" class="contact_icon"/>
-        </div>
+        </div> -->
 
       </div>
 

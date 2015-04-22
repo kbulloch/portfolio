@@ -1,10 +1,14 @@
 body {
-  background-color: #FFFFF0;
-  color: #009999;
+  background-color: #009999;
+  color: #FFFFF0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
 }
 
-a, p, h3 {
-  color: #009999;
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: #ACE1F2;
 }
 
 .navbar {
@@ -19,7 +23,7 @@ a, p, h3 {
   margin-top: 13px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: 009999;
+  background-color: #009999;
   color: #FFFFF0;
 }
 
@@ -38,9 +42,23 @@ a, p, h3 {
 }
 
 .row {
-  margin-top: 20px;
+  min-height: 200px;
+  padding: 10px;
+  border-radius: 10px;
   margin-bottom: 20px;
-  /*min-height: 200px;*/
+}
+
+.bio, .education {
+  background-color: #00B3B3;
+}
+
+.box_head {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.work {
+  background-color: #008282;
 }
 
 .img_crop {
