@@ -90,3 +90,7 @@ a {
   text-align: center;
   margin: 5px;
 }
+
+.form-inline {
+  display: inline;
+}
