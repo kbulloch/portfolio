@@ -80,6 +80,14 @@ a {
   z-index: -1;
 }
 
+.circle_pic {
+  border-radius: 100%;
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #epicodus_logo {
   max-width: 130px;
   margin-top: 20px;
@@ -93,4 +101,10 @@ a {
 
 .form-inline {
   display: inline;
+}
+
+.btn {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #009999;
 }
