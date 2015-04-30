@@ -1,5 +1,7 @@
 body {
-  background-color: #009999;
+  /*background-color: #009999; //teal*/
+  background: url("../img/black_pattern01.jpg");
+  background-size: 100% 100%;
   color: #F0EDCE;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
@@ -50,7 +52,7 @@ a {
 
 .bio, .education {
   /*background-color: #008282; //darker teal*/
-  background-color: #00B3B3; //lighter teal
+  background-color: rgba(0,179,179,0.5); //lighter teal
 }
 
 .box_head {
@@ -59,7 +61,7 @@ a {
 }
 
 .work {
-  background-color: #008282;
+  background-color: rgba(0,130,130,0.5);
 }
 
 .img_crop {
@@ -70,14 +72,6 @@ a {
 
 #hidden {
   display: none;
-}
-
-#snow_pic {
-  width: 100%;
-  top: -180px;
-  position: relative;
-  opacity: 1;
-  z-index: -1;
 }
 
 .circle_pic {
