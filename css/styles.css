@@ -1,7 +1,5 @@
 body {
-  /*background-color: #009999; //teal*/
-  background: url("../img/black_pattern01.jpg");
-  background-size: 100% 100%;
+  background: url("../img/dark_pixels.png");
   color: #F0EDCE;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
@@ -10,7 +8,6 @@ body {
 a {
   /*color: #FF722B; //orange*/
   color: #ACE1F2; //light blue
-  /*text-decoration: underline;*/
 }
 
 .navbar {
@@ -68,7 +65,7 @@ a {
 }
 
 .work {
-  background-color: rgba(0,130,130,0.5);
+  background-color: rgba(0,179,179,0.5);
 }
 
 .img_crop {
