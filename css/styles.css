@@ -33,10 +33,11 @@ a {
   background-position: 0 -300;
   background-size: 100%;
   min-height: 250px;
-  color: rgba(255,255,255,0.6);
 }
 
 #jumbo-text {
+  color: rgba(255,255,255,0.6);
+  font-weight: 100;
   position: absolute;
   top: 150px;
   left: 10%;
@@ -48,30 +49,25 @@ a {
 }
 
 .row {
-  min-height: 200px;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
-.bio, .education {
-  /*background-color: #008282; //darker teal*/
+.bio, .education, .work {
+  min-height: 200px;
   background-color: rgba(0,179,179,0.5); //lighter teal
+}
+
+.contact {
+  height: 100px;
+  text-align: center;
+  margin: 5px;
 }
 
 .box_head {
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.work {
-  background-color: rgba(0,179,179,0.5);
-}
-
-.img_crop {
-  border-radius: 10px;
-  height: 300px;
-  overflow: hidden;
 }
 
 #hidden {
@@ -92,9 +88,9 @@ a {
   margin-bottom: 10px;
 }
 
-.contact {
-  text-align: center;
-  margin: 5px;
+.contact-icon {
+  height: 12px;
+  vertical-align: -1px;
 }
 
 .form-inline {
