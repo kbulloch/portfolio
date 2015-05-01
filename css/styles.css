@@ -10,21 +10,21 @@ a {
   color: #ACE1F2; //light blue
 }
 
-.navbar {
+/*.navbar {
   background-color: #FFFFF0;
   border: none;
   border-radius: 0px;
   margin-bottom: 0;
   text-align: center;
-}
+}*/
 
-.btn-nav {
+/*.btn-nav {
   margin-top: 13px;
   padding-left: 30px;
   padding-right: 30px;
   background-color: #009999;
   color: #FFFFF0;
-}
+}*/
 
 .jumbotron {
   width: 100%;
@@ -43,11 +43,6 @@ a {
   left: 10%;
 }
 
-.title {
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
 .row {
   padding: 10px;
   border-radius: 10px;
@@ -55,12 +50,10 @@ a {
 }
 
 .bio, .education, .work {
-  min-height: 200px;
   background-color: rgba(0,179,179,0.5); //lighter teal
 }
 
 .contact {
-  height: 100px;
   text-align: center;
   margin: 5px;
 }
@@ -83,6 +76,9 @@ a {
 }
 
 #epicodus_logo {
+  background-color: rgba(190,255,255,0.5);
+  padding: 5px;
+  border-radius: 5px;
   max-width: 130px;
   margin-top: 20px;
   margin-bottom: 10px;
