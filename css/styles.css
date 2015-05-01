@@ -10,13 +10,18 @@ a {
   color: #ACE1F2; //light blue
 }
 
-/*.navbar {
-  background-color: #FFFFF0;
+.navbar {
+  background-color: rgba(0,0,0,0);
   border: none;
   border-radius: 0px;
-  margin-bottom: 0;
   text-align: center;
-}*/
+  /*position: relative;*/
+  /*top: 250px;*/
+}
+
+.navbar > h3 {
+  display: inline;
+}
 
 /*.btn-nav {
   margin-top: 13px;
