@@ -1,9 +1,10 @@
-<html>
+<html ng-app="app">
 <head>
   <meta charset="utf-8">
   <title>Kyle K Bulloch</title>
   <script src="lib/angular.js"></script>
   <script src="lib/angular-ui-router.js"></script>
+  <script src="app.js"></script>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -21,114 +22,10 @@
   </div>
 
   <div class="container">
-
-    <div class="row bio">
-      <div class="col-sm-8">
-        <h3>Who I am</h3>
-        <p>
-          Born and raised on Kauai, HI.  I am Kyle Kaimana Bulloch.  I love
-          all things tech, futurism, math, physics, engineering, chemistry,
-          and logic.  Writing code tickles my brain in just the right way.
-          I am an aspiring Full Stack Web Developer currently studying at Epicodus.
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <img src="img/kyle_and_goose.jpg" alt="kyle_and_goose" class="circle_pic"/>
-      </div>
-    </div>
-
-    <div class="row work">
-      <div class="box_head">
-        <h3>Work Samples</h3>
-        <p>
-          Here are a few web apps developed while learning at Epicodus.
-        </p>
-      </div>
-
-      <div class="col-sm-6">
-        <p>
-          <h4><a href="/tamagotchi/tamagotchi.html">Tamagotchi</a></h4>
-          A web game developed as an exercise in Javascript objects using jQuery.
-          <a href="https://github.com/kbulloch/tamagotchi_js">Github</a>
-        </p>
-
-        <p>
-          <h4><a href="/TriangleQualifier/triangler.html">Triangle Qualifier</a></h4>
-          Web app that takes three side lengths and returns the type of triangle formed.
-          An exercise in Javascript objects and jQuery.
-          <a href="https://github.com/kbulloch/TriangleQualifier">Github</a>
-        </p>
-      </div>
-      <div class="col-sm-6">
-        <!-- <p>
-          <h4><a href="/pizzaria/pizza.html">Pizzaria</a></h4>
-          Web app mimicking a pizza restaurant.  User can choose topping and size
-          and get a total order price.  Exercise in Javascript objects and jQuery.
-          <a href="https://github.com/kbulloch/pizza_js">Github</a>
-        </p> -->
-        <p>
-          <h4><a href="/SpacePirate">Space Pirate</a></h4>
-          A web game about surviving in a damaged pirate ship in space.  This was
-          built in under two class days as an exercise in AngularJS UI Routing.
-          <a href="https://github.com/kbulloch/SpacePirate">Github</a>
-        </p>
-        <p>
-          <h4><a href="/SignInApp">Sign In App</a></h4>
-          An attendence sheet app for a small classroom.  Students can click to
-          log in / log out, teachers can add and delete students.  This app was
-          built as an assessment of my skills in AngularJS UI Routing for Epicodus.
-          <a href="https://github.com/kbulloch/SignInApp">Github</a>
-        </p>
-        <!-- <p>
-          <h4><a href="https://github.com/kbulloch/ShoeStores">Shoe Stores</a></h4>
-          Web app that lists shoe stores and the brands they carry.  Exercise in
-          many-to-many relationships in PostgreSQL and PHP.
-          <a href="https://github.com/kbulloch/ShoeStores">Github</a>
-        </p> -->
-      </div>
-    </div>
-
-    <div class="row education">
-      <div class="col-sm-6" id="school_left">
-        <img id="epicodus_logo" src="img/epicodus_logo.png" alt="epicodus_logo" />
-        <p>
-          I am currently studying web development full time at
-          <a href="https://www.epicodus.com/">Epicodus</a>, a code bootcamp
-          in Portland, OR.  We are pair programming all day, every day at here.
-          Pairing strengthens and challenges your knowledge base, and also
-          fosters great communication skills.
-        </p>
-      </div>
-      <div class="col-sm-6" id="school_right">
-        <h3>Technologies Learned</h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>PHP</li>
-            <li>PostgreSQL</li>
-            <li>Javascript</li>
-            <li>jQuery</li>
-            <li>AngularJS</li>
-            <li>Drupal</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="row contact">
-      <p>
-        <img src="img/Twitter_logo_white.png" alt="twitter_bird" class="contact-icon">
-        <a href="https://twitter.com/KyleKBulloch">@KyleKBulloch</a>
-      </p>
-      <p>
-        <img src="img/icon-chain.png" alt="twitter_bird" class="contact-icon">
-        <a href="http://linkedin.com/in/kylekbulloch">linkedin.com/KyleKBulloch</a>
-      </p>
-      <p>
-        <img src="img/email-icon.png" alt="email_icon" class="contact-icon">
-        <a href="mailto:kylekbulloch@gmail.com">KyleKBulloch@gmail</a>
-      </p>
-    </div>
-
+    <div ui-view="bio"></div>
+    <div ui-view="work"></div>
+    <div ui-view="education"></div>
+    <div ui-view="contact"></div>
   </div>
 
 </body>
