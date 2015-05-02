@@ -20,4 +20,11 @@ app.controller("ViewCtrl", function ViewCtrl($scope) {
     $scope.education = true;
   };
 
+  $scope.showContact = function() {
+    $scope.bio = false;
+    $scope.work = false;
+    $scope.education = false;
+    $scope.contact = true;
+  };
+
 });
