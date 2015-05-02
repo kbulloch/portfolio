@@ -16,8 +16,7 @@ app.config(function($stateProvider) {
       "contact": {
         templateUrl: "partials/contact.html"
       }
-    },
-    controller: "ViewCtrl"
+    }
   });
 });
 

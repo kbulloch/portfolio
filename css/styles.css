@@ -23,6 +23,7 @@ a {
 .navbar > h3 {
   display: inline;
   margin: 8%;
+  cursor: pointer;
 }
 
 /*.btn-nav {
