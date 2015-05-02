@@ -5,21 +5,22 @@
   <script src="lib/angular.js"></script>
   <script src="lib/angular-ui-router.js"></script>
   <script src="app.js"></script>
+  <script src="controllers/ViewController.js"></script>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
 
-  <!-- <navbar></navbar> -->
-
   <div class="jumbotron">
     <h1 id="jumbo-text">Kyle K Bulloch</h1>
   </div>
 
-  <div class="container">
-    <div ui-view="bio"></div>
-    <div ui-view="work"></div>
-    <div ui-view="education"></div>
+  <navbar ng-controller="ViewCtrl"></navbar>
+
+  <div class="container" ng-controller="ViewCtrl">
+    <div ui-view="bio" ng-show="bio"></div>
+    <div ui-view="work" ng-show="work"></div>
+    <div ui-view="education" ng-show="education"></div>
     <div ui-view="contact"></div>
   </div>
 

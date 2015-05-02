@@ -16,13 +16,15 @@ app.config(function($stateProvider) {
       "contact": {
         templateUrl: "partials/contact.html"
       }
-    }
+    },
+    controller: "ViewCtrl"
   });
 });
 
 app.directive("navbar", function() {
   return {
     restrict: "E",
-    templateUrl: "partials/navigation.html"
+    templateUrl: "partials/navigation.html",
+    controller: "ViewCtrl"
   }
 });
