@@ -1,6 +1,6 @@
 app.controller("ViewCtrl", function ViewCtrl($scope) {
 
-  // $scope.bio = true;
+  $scope.bio = true;
 
   $scope.showBio = function() {
     $scope.bio = true;
