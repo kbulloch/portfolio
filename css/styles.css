@@ -14,7 +14,7 @@ a {
   background-color: rgba(0,0,0,0);
   border: none;
   border-radius: 0px;
-  text-align: left;
+  text-align: center;
   /*margin-left: 5%;*/
   /*position: relative;*/
   /*top: 250px;*/
@@ -38,7 +38,7 @@ a {
   width: 100%;
   text-align: center;
   background-image: url('../img/snowboard_vista.jpg');
-  background-position: 0 -300;
+  background-position: 0 -250px;
   background-size: 100%;
   min-height: 250px;
 }
